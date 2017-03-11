@@ -1,0 +1,40 @@
+{
+  "name": "basic-js-validator",
+  "version": "1.0.2",
+  "description": "A simple and bare minimum javascript form data validator.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eumentis/simple-js-validator.git"
+  },
+  "keywords": [
+    "javascript",
+    "validator",
+    "form-validation",
+    "validation"
+  ],
+  "author": "Pawan Samdani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eumentis/simple-js-validator/issues"
+  },
+  "homepage": "https://github.com/eumentis/simple-js-validator#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.2.1",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "moment": "^2.17.1"
+  }
+}

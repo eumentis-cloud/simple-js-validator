@@ -3,7 +3,7 @@ A simple and bare minimum javascript form data validator.
 
 ## Usage
 ```javascript
-import validator from 'simple-js-validator';
+import validator from 'basic-js-validator';
 
 const error = validator(value, rulesToCheck);
 ```
